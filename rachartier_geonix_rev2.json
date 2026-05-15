@@ -44,7 +44,7 @@
     ],
     [
       "KC_TRNS",   "QK_BOOT", "DB_TOGG", "UG_TOGG", "UG_NEXT", "UG_HUEU", "UG_HUED", "UG_SATU", "UG_SATD", "UG_VALU", "UG_VALD", "KC_DEL",
-      "MD_BLE1",   "MD_BLE2", "MD_BLE3", "MD_24G",  "QK_BAT",  "QK_WLO",  "KC_TRNS", "DF(0)",   "DF(1)",   "DF(2)",   "TO(5)",   "KC_TRNS",
+      "QK_KB_1",   "QK_KB_2", "QK_KB_3", "QK_KB_0", "QK_KB_5", "QK_KB_6", "KC_TRNS", "DF(0)",   "DF(1)",   "DF(2)",   "TO(5)",   "KC_TRNS",
       "KC_TRNS",   "TG(2)",   "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",
       "KC_TRNS",   "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS",            "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS", "KC_TRNS"
     ],
