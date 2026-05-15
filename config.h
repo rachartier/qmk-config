@@ -1,5 +1,9 @@
 #pragma once
 
+#ifdef KEYBOARD_chosfox_geonixr2
+#define DYNAMIC_KEYMAP_LAYER_COUNT 9
+#endif
+
 #undef MOUSEKEY_DELAY
 #define MOUSEKEY_DELAY 0
 
