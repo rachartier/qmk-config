@@ -8,8 +8,11 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        file:
-          - rachartier_planck_rev7.json
+        include:
+          - file: rachartier_planck_rev7.json
+            qmk_repo: qmk/qmk_firmware
+          - file: rachartier_geonix_rev2.json
+            qmk_repo: carlosedp/qmk_firmware
 
     steps:
       - name: Disable git safe directory checks
@@ -18,7 +21,7 @@ jobs:
       - name: Checkout QMK
         uses: actions/checkout@v4
         with:
-          repository: qmk/qmk_firmware
+          repository: ${{ matrix.qmk_repo }}
           submodules: recursive
       - name: Checkout userspace
         uses: actions/checkout@v4
