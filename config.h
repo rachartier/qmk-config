@@ -1,9 +1,5 @@
 #pragma once
 
-#ifdef KEYBOARD_chosfox_geonixr2
-#define DYNAMIC_KEYMAP_LAYER_COUNT 9
-#endif
-
 #undef MOUSEKEY_DELAY
 #define MOUSEKEY_DELAY 0
 
@@ -18,3 +14,13 @@
 
 #undef MOUSEKEY_TIME_TO_MAX
 #define MOUSEKEY_TIME_TO_MAX 64
+
+#ifdef KEYBOARD_chosfox_geonixr2
+#define DYNAMIC_KEYMAP_LAYER_COUNT 5
+
+#undef MOUSEKEY_MAX_SPEED
+#define MOUSEKEY_MAX_SPEED 10
+
+#undef MOUSEKEY_TIME_TO_MAX
+#define MOUSEKEY_TIME_TO_MAX 16
+#endif

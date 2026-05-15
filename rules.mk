@@ -4,5 +4,5 @@ MOUSEKEY_ENABLE = yes
 endif
 
 ifeq ($(KEYBOARD), chosfox/geonixr2)
-DYNAMIC_KEYMAP_ENABLE = yes
+VIA_ENABLE = yes
 endif
