@@ -15,8 +15,11 @@
 #undef MOUSEKEY_TIME_TO_MAX
 #define MOUSEKEY_TIME_TO_MAX 64
 
-#ifdef KEYBOARD_chosfox_geonixr2
+#ifdef KEYBOARD_chosfox_geonix_rev25_geonix40
 #define DYNAMIC_KEYMAP_LAYER_COUNT 5
+
+// Only applied on EEPROM reset (QK_EE_CLR); the stored mode wins otherwise.
+#define RGB_MATRIX_DEFAULT_MODE RGB_MATRIX_CUSTOM_PRESS_GLOW
 
 #undef MOUSEKEY_MAX_SPEED
 #define MOUSEKEY_MAX_SPEED 10

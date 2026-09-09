@@ -11,7 +11,7 @@ jobs:
         include:
           - file: rachartier_planck_rev7.json
             qmk_repo: qmk/qmk_firmware
-          - file: rachartier_geonix_rev2.json
+          - file: rachartier_geonix_rev25.json
             qmk_repo: rachartier/qmk_firmware
 
     steps:
